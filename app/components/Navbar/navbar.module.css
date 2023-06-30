@@ -1,0 +1,75 @@
+.navbar {
+  height: 80px;
+  background-color: black;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 300px;
+}
+
+.navbar_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_logo {
+  width: 50px;
+}
+
+.navbar_logo:hover {
+  color: #ffa726;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.info:hover {
+  color: #9e9e9e;
+}
+
+.icons_insta {
+  padding: 0px 8px;
+  color: white;
+}
+
+.icons_face {
+  padding: 0px 8px;
+  color: white;
+}
+
+.icons_whatsapp {
+  padding: 0px 8px;
+  color: white;
+}
+
+.navbar_center:hover {
+  color: #ffa726;
+}
+
+.icons_insta:hover {
+  color: #ab47bc;
+}
+
+.icons_face:hover {
+  color: #01579b;
+}
+
+.icons_whatsapp:hover {
+  color: #4caf50;
+}
