@@ -49,18 +49,13 @@
   width: 260px;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.2s ease-in-out;
-}
-
-.header_img:hover {
-  transform: scale(1.1);
 }
 
 .header_description {
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.55);
-  padding-top: 35px;
+  padding: 35px 10px 0px 10px;
   width: 100%;
   text-align: center;
 }

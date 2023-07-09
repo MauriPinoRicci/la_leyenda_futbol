@@ -2,6 +2,7 @@ import React from "react";
 import styles from './header.module.css'
 import Image from "next/image";
 import logo from '../../../public/images/logo.png'
+import "../../animate.css"
 
 const Header = () => {
 	return (
@@ -9,7 +10,7 @@ const Header = () => {
 			<div className={styles.header_opacity}></div>
 			<div className={styles.header_content}>
 				<h1 className={styles.header_title}>Bienvenidos a La Leyenda Fútbol</ h1>
-				<div className={styles.header_image}>
+				<div className={`${styles.header_image} animate__animated animate__zoomIn`}>
 					<a href="">
 						<Image className={styles.header_img}
 							src={logo}
@@ -18,7 +19,7 @@ const Header = () => {
 					</a>
 				</div>
 				<div className={styles.header_description}>
-					<p className={styles.header_parrafo}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente alias incidunt quaerat illum cumque ipsam commodi amet voluptas totam reprehenderit, delectus deserunt inventore mollitia, voluptate quisquam? Unde odio recusandae natus?</p>
+					<p className={styles.header_parrafo}>Somos una familia futbolera, que teníamos una visión en común y era desarrollar un proyecto relacionado a nuestro deporte favorito, con un toque de historia familiar y con mucho esfuerzo. Logramos poner en marcha éste sueño que iniciamos allá por el año 2014.</p>
 				</div>
 			</div>
 		</header>
