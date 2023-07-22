@@ -5,7 +5,7 @@ const Servicios = () => {
     return (
         <header className={styles.servicios_header}>
             <h1 className={styles.servicios_title}>¿Qué Ofrecemos?</h1>
-            <p>Contamos con unas instalaciones preparadas para festejar tú evento soñado, también contamos como 2 canchas de fútbol sintetico </p>
+            <p className={styles.servicios_text}>Contamos con unas instalaciones preparadas para festejar tú evento soñado, también contamos con 2 canchas de fútbol sintetico </p>
         </header>
     )
 }

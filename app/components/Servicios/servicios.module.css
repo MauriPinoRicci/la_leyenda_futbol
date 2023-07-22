@@ -1,0 +1,19 @@
+.servicios_header{
+    height: 600px;
+    width: 100%;
+    background-color: aqua;
+
+}
+
+.servicios_title{
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.servicios_text{
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
