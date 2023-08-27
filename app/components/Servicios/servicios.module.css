@@ -1,19 +1,38 @@
 .servicios_header{
     height: 600px;
     width: 100%;
-    background-color: aqua;
+    background-color: #212121;
+    color: #fafafa;
 
 }
 
 .servicios_title{
-    color: black;
-    padding: 10px;
     display: flex;
+    padding: 30px;
     justify-content: center;
+    color: #ffa726;
 }
+
 .servicios_text{
-    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.servicios_text_info{
     padding: 10px;
     display: flex;
     justify-content: center;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.servicios_text_num{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffa726; 
 }

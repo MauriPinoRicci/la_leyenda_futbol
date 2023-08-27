@@ -19,7 +19,7 @@ const Header = () => {
 					</a>
 				</div>
 				<div className={styles.header_description}>
-					<p className={styles.header_parrafo}>Somos una familia futbolera, que teníamos una visión en común y era desarrollar un proyecto relacionado a nuestro deporte favorito, con un toque de historia familiar y con mucho esfuerzo. Logramos poner en marcha éste sueño que iniciamos allá por el año 2014.</p>
+					<p className={styles.header_parrafo}>Somos una familia futbolera, que teníamos una visión en común y era desarrollar un proyecto relacionado a nuestro deporte favorito, con un toque de historia familiar y con mucho esfuerzo, logramos poner en marcha éste sueño que iniciamos allá por el año 2014.</p>
 				</div>
 			</div>
 		</header>
