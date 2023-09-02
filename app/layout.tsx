@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'La Leyenda Fútbol',
-  description: 'Canchas de pasto sintético',
+  description: 'Canchas de fútbol, pasto sintético',
 }
 
 export default function RootLayout({

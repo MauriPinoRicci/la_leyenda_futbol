@@ -11,6 +11,7 @@
     padding: 30px;
     justify-content: center;
     color: #ffa726;
+    font-weight: 500;
 }
 
 .servicios_text{
@@ -24,15 +25,20 @@
     padding: 10px;
     display: flex;
     justify-content: center;
+    font-weight: 300;
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
 }
 
 .servicios_text_num{
-    padding: 10px;
     display: flex;
     justify-content: center;
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 300;
     color: #ffa726; 
+}
+
+.servicios_text_num:hover{
+    color: #fafafa;
 }
