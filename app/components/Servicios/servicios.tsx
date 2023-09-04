@@ -1,15 +1,42 @@
 import React from "react";
 import styles from './servicios.module.css'
+import Image from "next/image";
+import salon from '../../../public/images/saloncanchas.jpeg'
 
 const Servicios = () => {
     return (
-        <header className={styles.servicios_header}>
+        <section className={styles.servicios_header}>
             <h1 className={styles.servicios_title}>SERVICIOS</h1>
             <p className={styles.servicios_text}>Únicos y de Primer Nivel</p>
-            <p>foto salon</p>
-            <p className={styles.servicios_text_info}>Para mayor información acerca de nuestros servicios comunicate al: </p>
-            <span className={styles.servicios_text_num}> +54 9 261 517-4439</span>
-        </header>
+            <Image className={styles.servicios_img}
+                src={salon}
+                alt="salón de la leyenda futbol"
+            />
+
+            <div className={styles.servicios_column}>
+                <div className={styles.column}>
+                    <h2 className={styles.column_title}>Tercer Tiempo</h2>
+                    <p className={styles.column_text}>Después del partido compartí un asado junto con tus
+                        amigos. Contamos con parrilla completa.</p>
+                </div>
+
+                <div className={styles.column}>
+                    <h2 className={styles.column_title} >Escuelita de Fútbol</h2>
+                    <p className={styles.column_text}>La escuelita de fútbol de LA LEYENDA FÚTBOL busca principalmente que todos los chicos encuentren un clima amable y de compañerismo,
+                        tanto en sus pares como en sus profesores. El objetivo principal es que todos asistan a las clases principalmente con entusiasmo, deseo de jugar y sobre todo divertirse.
+                    </p>
+                </div>
+
+                <div className={styles.column}>
+                    <h2 className={styles.column_title}>Eventos</h2>
+                    <p className={styles.column_text}>Descubrí nuestro salón completamente equipado para celebrar tu evento soñado. Ofrecemos instalaciones de primer nivel y un servicio excepcional.</p>
+                </div>
+            </div>
+            <div className={styles.servicios_end}>
+                <p className={styles.servicios_text_info}>Para mayor información acerca de nuestros servicios comunicate al:<span className={styles.servicios_text_num}>+54 9 261 517-4439</span></p>
+            </div>
+        </section>
+
     )
 }
 export { Servicios }

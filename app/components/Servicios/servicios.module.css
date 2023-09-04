@@ -1,44 +1,98 @@
-.servicios_header{
-    height: 600px;
+.servicios_header {
+    height: auto;
     width: 100%;
     background-color: #212121;
     color: #fafafa;
-
-}
-
-.servicios_title{
-    display: flex;
-    padding: 30px;
-    justify-content: center;
-    color: #ffa726;
-    font-weight: 500;
-}
-
-.servicios_text{
-    display: flex;
-    justify-content: center;
-    font-size: 34px;
-    font-family: 'Dancing Script', cursive;
-}
-
-.servicios_text_info{
     padding: 10px;
+    
+}
+
+.servicios_title {
     display: flex;
     justify-content: center;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 34px;
+    color: #ffa726;
+}
+
+.servicios_text {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+
+.servicios_img {
+    width: 450px;
+    height: 300px;
+    display: block;
+    padding: 5px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+}
+
+.servicios_column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+}
+
+.column{
+    flex: 1;
+    text-align: center;
+}
+
+.column_title{
+    display: inline-block; 
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffa726;
+    padding: 5px;
+    border-bottom: 2px solid white;
+}
+
+.column_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 300;
+    height: 100%;
+    padding: 10px;
+    line-height: 1.5; 
+}
+
+.servicios_end{
+    border-bottom: 2px solid white;
+}
+
+.servicios_text_info {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 2px;
     font-weight: 300;
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
 }
 
-.servicios_text_num{
+.servicios_text_num {
     display: flex;
     justify-content: center;
+    margin-left: 5px;
+    vertical-align: middle;
     font-size: 22px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    color: #ffa726; 
+    color: #ffa726;
 }
 
-.servicios_text_num:hover{
-    color: #fafafa;
+.servicios_text_num:hover {
+    color: #f57c00 ;
 }
