@@ -22,8 +22,8 @@ const Servicios = () => {
 
                 <div className={styles.column}>
                     <h2 className={styles.column_title} >Escuelita de Fútbol</h2>
-                    <p className={styles.column_text}>La escuelita de fútbol de LA LEYENDA FÚTBOL busca principalmente que todos los chicos encuentren un clima amable y de compañerismo,
-                        tanto en sus pares como en sus profesores. El objetivo principal es que todos asistan a las clases principalmente con entusiasmo, deseo de jugar y sobre todo divertirse.
+                    <p className={styles.column_text}>La escuelita de LA LEYENDA FÚTBOL busca principalmente que todos los chicos encuentren un clima amable y de compañerismo,
+                        tanto en sus pares como en sus profesores. El objetivo principal es que todos asistan a las clases con entusiasmo, deseo de jugar y sobre todo divertirse.
                     </p>
                 </div>
 
@@ -32,9 +32,8 @@ const Servicios = () => {
                     <p className={styles.column_text}>Descubrí nuestro salón completamente equipado para celebrar tu evento soñado. Ofrecemos instalaciones de primer nivel y un servicio excepcional.</p>
                 </div>
             </div>
-            <div className={styles.servicios_end}>
-                <p className={styles.servicios_text_info}>Para mayor información acerca de nuestros servicios comunicate al:<span className={styles.servicios_text_num}>+54 9 261 517-4439</span></p>
-            </div>
+            <p className={styles.servicios_text_info}>Para mayor información acerca de nuestros servicios comunicate al:<span className={styles.servicios_text_num}>+54 9 261 517-4439</span></p>
+            <div className={styles.servicios_divider}></div>
         </section>
 
     )

@@ -68,9 +68,15 @@
     line-height: 1.5; 
 }
 
-.servicios_end{
+.servicios_divider{
+    margin: 0 auto;
+    height: 10px;
+    width: 80%;
     border-bottom: 2px solid white;
 }
+
+    
+
 
 .servicios_text_info {
     display: flex;
@@ -94,5 +100,5 @@
 }
 
 .servicios_text_num:hover {
-    color: #f57c00 ;
+    color: #0288d1 ;
 }
