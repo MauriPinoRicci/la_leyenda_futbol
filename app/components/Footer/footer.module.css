@@ -1,13 +1,42 @@
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background-color: #212121;
-    color: white;
-    padding: 5px;
-    height: 80px;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212121;
+  color: white;
+  padding: 5px;
+  height: 60px;
+}
+
+.footer_text{
+  font-size: 15px;
+  font-weight: 300;
+  margin: 2px;
+}
+.navbar_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px;
+}
+
+.icons_insta,
+.icons_face,
+.icons_whatsapp {
+  padding: 0px 2px; /* Ajusta el espaciado horizontal */
+  margin-right: 3px; /* Añade margen a la derecha de cada icono */
+  font-size: 20px; /* Cambia el tamaño de fuente de los iconos si es necesario */
+  color: white;
+}
+
+.icons_insta:hover {
+  color: #ab47bc;
+}
+
+.icons_face:hover {
+  color: #01579b;
+}
+
+.icons_whatsapp:hover {
+  color: #4caf50;
+}

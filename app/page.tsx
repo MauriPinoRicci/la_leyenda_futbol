@@ -3,13 +3,15 @@ import {Navbar} from './components/Navbar/navbar'
 import {Header} from './components/Header/header'
 import {Footer} from './components/Footer/footer'
 import {Servicios} from './components/Servicios/servicios'
-
+import {Contacto} from './components/Contacto/contacto'
+ 
 export default function Home() {
   return (
     <main className={styles.main}>
         <Navbar />
         <Header />
         <Servicios />
+        <Contacto />
         <Footer />
     </main>
   )

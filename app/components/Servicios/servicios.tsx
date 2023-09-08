@@ -32,10 +32,7 @@ const Servicios = () => {
                     <p className={styles.column_text}>Descubrí nuestro salón completamente equipado para celebrar tu evento soñado. Ofrecemos instalaciones de primer nivel y un servicio excepcional.</p>
                 </div>
             </div>
-            <p className={styles.servicios_text_info}>Para mayor información acerca de nuestros servicios comunicate al:<span className={styles.servicios_text_num}>+54 9 261 517-4439</span></p>
-            <div className={styles.servicios_divider}></div>
         </section>
-
     )
 }
 export { Servicios }

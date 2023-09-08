@@ -1,0 +1,56 @@
+.header {
+    height: 400px;
+    position: relative;
+    background: transparent;
+    background-image: url(../../../public/images/contacto.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Alinea el contenido verticalmente */
+}
+
+.header_opacity {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    opacity: .5;
+}
+
+.header_content {
+    position: relative; /* Cambia a relativo para que el contenido se alinee correctamente */
+    z-index: 2;
+    text-align: center; /* Alinea el texto en el centro */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+}
+
+.header_title {
+    color: #ffa726;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 10px; /* Agrega un espacio entre el título y el texto */
+    position: relative;
+    top: -100px; /* Ajusta la separación desde el borde superior */
+}
+
+.header_text_info {
+    font-weight: 350;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    margin: -10px 0;
+}
+
+.header_text_num {
+    display: inline; /* Para evitar saltos de línea inesperados */
+    margin-left: 5px;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 350;
+    color: #ffa726;
+}
+
+.header_text_num:hover {
+    color: #4fc3f7;
+}
