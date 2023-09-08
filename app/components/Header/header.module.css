@@ -28,10 +28,12 @@
 
 .header_title {
   margin: 8px;
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 500;
+  font-size: 35px;
   width: 100%;
   text-align: center;
+  color: #ffa726;
+  font-family: 'Raleway', sans-serif;
 }
 
 .header_image {

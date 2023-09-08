@@ -54,7 +54,8 @@
     font-size: 25px;
     color: #ffa726;
     padding: 5px;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
+
 }
 
 .column_text {
@@ -68,29 +69,3 @@
     line-height: 1.5; 
 }
 
-
-
-.servicios_text_info {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    margin: 2px;
-    font-weight: 300;
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.servicios_text_num {
-    display: flex;
-    justify-content: center;
-    margin-left: 5px;
-    vertical-align: middle;
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    color: #ffa726;
-}
-
-.servicios_text_num:hover {
-    color: #0288d1 ;
-}

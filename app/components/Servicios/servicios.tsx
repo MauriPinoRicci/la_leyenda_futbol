@@ -19,7 +19,7 @@ const Servicios = () => {
                     <p className={styles.column_text}>Después del partido compartí un asado junto con tus
                         amigos. Contamos con parrilla completa.</p>
                 </div>
-
+            
                 <div className={styles.column}>
                     <h2 className={styles.column_title} >Escuelita de Fútbol</h2>
                     <p className={styles.column_text}>La escuelita de LA LEYENDA FÚTBOL busca principalmente que todos los chicos encuentren un clima amable y de compañerismo,
