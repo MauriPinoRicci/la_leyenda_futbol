@@ -9,9 +9,8 @@ const Header = () => {
 		<header className={styles.header}>
 			<div className={styles.header_opacity}></div>
 			<div className={styles.header_content}>
-				<h1 className={styles.header_title}>Bienvenidos a La Leyenda Fútbol</ h1>
 				<div className={`${styles.header_image} animate__animated animate__zoomIn`}>
-					<a href="">
+					<a href="https://chat.whatsapp.com/BALuNp6T5o51ukLom91n31" target="bla">
 						<Image className={styles.header_img}
 							src={logo}
 							alt="logo de la leyenda futbol"

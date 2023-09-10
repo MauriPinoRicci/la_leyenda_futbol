@@ -9,11 +9,14 @@
 
 .navbar_center {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 600;
-  font-size: 20px;
-  padding-left: 110px;
+  justify-content: center;
+  padding-left: 70px;
+  margin: 8px;
+  font-weight: 300;
+  font-size: 30px;
+  width: 100%;
+  color: #ffa726;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar_right {
@@ -30,31 +33,10 @@
   color: #ffa726;
 }
 
-.info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 300;
-  font-size: 20px;
-  padding: 10px;
-}
-
-.info:hover {
-  color: #ffa726;
-}
-
-.icons_insta {
-  padding: 0px 8px;
-  color: white;
-}
-
-.icons_face {
-  padding: 0px 8px;
-  color: white;
-}
-
-.icons_whatsapp {
-  padding: 0px 8px;
+.icons_insta,
+  .icons_face,
+  .icons_whatsapp {
+  padding: 0px 4px;
   color: white;
 }
 

@@ -2,7 +2,7 @@
   height: 600px;
   position: relative;
   background: transparent;
-  background-image: url(../../../public/images/fondo.jpg);
+  background-image: url(../../../public/images/fondo.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -23,18 +23,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 30px ;
+  padding-top: 45px;
 }
 
-.header_title {
-  margin: 8px;
-  font-weight: 500;
-  font-size: 35px;
-  width: 100%;
-  text-align: center;
-  color: #ffa726;
-  font-family: 'Raleway', sans-serif;
-}
 
 .header_image {
   width: 260px;
@@ -54,15 +45,19 @@
 }
 
 .header_description {
-  display: flex;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.55);
-  padding: 35px 10px 0px 10px;
-  width: 100%;
   text-align: center;
+  height: 60px;
+  margin: 10px 30px;
 }
 
 .header_parrafo{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.55);
   color: #fafafa;
   font-size: 20px;
+  font-weight: 200;
+  text-align: center;
 }
