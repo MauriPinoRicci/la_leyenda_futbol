@@ -5,6 +5,7 @@
   background-image: url(../../../public/images/fondo.jpeg);
   background-size: cover;
   background-position: center;
+  letter-spacing: 0.5px;
 }
 
 .header_opacity {
@@ -46,7 +47,7 @@
 
 .header_description {
   text-align: center;
-  height: 60px;
+  height: 120px;
   margin: 10px 30px;
 }
 

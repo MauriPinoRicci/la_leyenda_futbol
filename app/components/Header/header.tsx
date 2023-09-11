@@ -18,7 +18,8 @@ const Header = () => {
 					</a>
 				</div>
 				<div className={styles.header_description}>
-					<p className={styles.header_parrafo}>Somos una familia futbolera, que teníamos una visión en común y era desarrollar un proyecto relacionado a nuestro deporte favorito, con un toque de historia familiar y con mucho esfuerzo, logramos poner en marcha éste sueño que iniciamos allá por el año 2014.</p>
+					<p className={styles.header_parrafo}>
+						Somos una familia futbolera, que teníamos una visión en común y era desarrollar un proyecto relacionado a nuestro deporte favorito. Con un toque de historia familiar y con mucho esfuerzo, logramos poner en marcha este sueño que iniciamos allá por el año 2014. La historia de La Leyenda Futbol está ligada a Hector Lofvall y su trayectoria futbolística, que ha sido una fuente de inspiración y pasión para todos nosotros.</p>
 				</div>
 			</div>
 		</header>

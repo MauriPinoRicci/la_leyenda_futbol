@@ -4,7 +4,7 @@
     background-color: #212121;
     color: #fafafa;
     padding: 10px;
-    
+    letter-spacing: 1px;
 }
 
 .servicios_title {
@@ -20,7 +20,6 @@
     display: flex;
     justify-content: center;
     font-size: 30px;
-    font-family: 'Dancing Script', cursive;
     margin-bottom: 15px;
     font-weight: 200;
 }
